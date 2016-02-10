@@ -1,0 +1,26 @@
+.square-container {
+	@include clearfix;
+	width: 100%;
+	height: $square-height;
+	position: relative;
+	.right-square {
+		float: right;
+		width: $square-height;
+		height: $square-height;
+		position: relative;
+		display: block;
+		background: $sw-accent;
+		overflow: hidden;
+	}
+
+	.bend-sinister {
+		position: absolute;
+		left: 17px;
+		top: -18px;
+		width: 3px;
+		margin: 0px;
+		height: 100px;
+		background: $sw-bg-color;
+		@include transform(rotate(45deg));
+	}
+}

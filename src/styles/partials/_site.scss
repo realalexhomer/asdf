@@ -1,0 +1,11 @@
+body {
+	background-color: $sw-bg-color;
+	font-family: $sw-serif;
+	font-size: $sw-font-size;
+	padding: $sw-padding;
+}
+
+#main {
+	max-width: $sw-max-width;
+	margin: 0px auto;
+}
