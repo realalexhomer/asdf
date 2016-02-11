@@ -5,6 +5,11 @@ body {
 	padding: $sw-padding;
 }
 
+nav {
+	max-width: $sw-max-width;
+	margin: 0px auto;
+}
+
 #main {
 	max-width: $sw-max-width;
 	margin: 0px auto;

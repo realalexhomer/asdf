@@ -4,30 +4,41 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon server --harmony",
+    "dev:styles": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ampersand-view": "^9.0.2",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "bluebird": "^3.2.2",
     "co-body": "^4.0.0",
+    "co-monk": "^1.0.0",
     "co-render": "^1.1.0",
     "co-views": "^2.1.0",
-    "css-loader": "^0.23.1",
     "jade": "^1.11.0",
+    "jquery": "^2.2.0",
     "koa": "^1.1.2",
     "koa-logger": "^1.3.0",
     "koa-router": "^5.3.0",
     "koa-static": "^2.0.0",
-    "sass-loader": "^3.1.2"
+    "marked": "^0.3.5",
+    "mongodb": "^1.4.0",
+    "monk": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
     "babel-loader": "^6.2.2",
     "babel-preset-es2015": "^6.5.0",
+    "css-loader": "^0.23.1",
     "json-loader": "^0.5.4",
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.13"
+    "webpack": "^1.12.13",
+    "webpack-livereload-plugin": "^0.5.3"
   }
 }
